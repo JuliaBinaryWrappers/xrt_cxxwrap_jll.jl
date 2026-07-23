@@ -1,0 +1,19 @@
+name = "xrt_cxxwrap_jll"
+uuid = "234b3921-e25d-5fa7-97e5-3959209f55eb"
+version = "2.17.0+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Libuuid_jll = "38a345b3-de98-5d2b-a5d3-14cd9215e700"
+libcxxwrap_julia_jll = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
+xrt_jll = "bb401bc5-fb22-5674-bf0e-333823e8805f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.7.0"
+julia = "~1.10, ~1.11, ~1.12, ~1.13, ~1.14"
+libcxxwrap_julia_jll = "0.14.8"
+Libdl = "< 0.0.1, 1"
+xrt_jll = "~2.17"
+Artifacts = "< 0.0.1, 1"
