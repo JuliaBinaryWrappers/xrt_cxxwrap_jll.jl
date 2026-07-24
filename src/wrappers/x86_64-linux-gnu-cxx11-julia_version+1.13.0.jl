@@ -5,12 +5,12 @@ using libcxxwrap_julia_jll
 using xrt_jll
 using Libuuid_jll
 JLLWrappers.@generate_wrapper_header("xrt_cxxwrap")
-JLLWrappers.@declare_library_product(libxrtwrap, "libxrtwrap.so.2.23")
+JLLWrappers.@declare_library_product(libxrtwrap, "libxrtwrap.so.2.26")
 function __init__()
     JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, xrt_jll, Libuuid_jll)
     JLLWrappers.@init_library_product(
         libxrtwrap,
-        "lib/libxrtwrap.so.2.23",
+        "lib/libxrtwrap.so.2.26",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
